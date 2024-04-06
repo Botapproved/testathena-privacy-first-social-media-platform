@@ -15,7 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Munia',
+  title: 'Surreal',
   description: 'A social media web app, built with Next.js 13.',
 };
 

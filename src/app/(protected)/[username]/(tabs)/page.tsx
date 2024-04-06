@@ -10,7 +10,7 @@ export async function generateMetadata({
 }) {
   const profile = await getProfile(params.username);
   return {
-    title: profile?.name || 'Munia',
+    title: profile?.name || 'Surreal',
   };
 }
 
