@@ -9,6 +9,8 @@ export default {
   pages: {
     signIn: '/login',
   },
+  trustHost: true,
+  secret: 'random',
   callbacks: {
     authorized({ auth, request: { nextUrl } }) {
       const { pathname, search } = nextUrl;
