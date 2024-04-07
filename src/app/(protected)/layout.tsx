@@ -12,7 +12,7 @@ export default async function Layout({
   await useCheckIfRequiredFieldsArePopulated();
 
   return (
-    <div className="md:flex md:justify-center md:gap-2">
+    <div className="md:flex justify-center  md:gap-2">
       <MenuBar />
 
       <ResponsiveContainer className="pb-20 md:pb-4">

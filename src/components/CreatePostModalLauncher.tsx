@@ -2,6 +2,7 @@
 import { useCreatePost } from '@/hooks/useCreatePost';
 import { ProfilePhotoOwn } from './ui/ProfilePhotoOwn';
 import { ButtonNaked } from './ui/ButtonNaked';
+import Button from './ui/Button';
 import SvgImage from '@/svg_components/Image';
 
 export function CreatePostModalLauncher() {
@@ -31,16 +32,48 @@ export function CreatePostModalLauncher() {
           className="group flex cursor-pointer flex-row items-center gap-4"
         >
           <SvgImage className="h-6 w-6 text-muted-foreground" />
-          <p className="text-base font-semibold text-muted-foreground group-hover:text-muted-foreground/80">
-            Image / Video
+          <p className="text-base  text-muted-foreground group-hover:text-muted-foreground/80">
+            Upload Image / Video
           </p>
         </ButtonNaked>
-        {/* <ButtonNaked className="group flex cursor-pointer flex-row items-center gap-4">
-          <EmojiHappySmile stroke="black" width={24} height={24} />
-          <p className="text-base font-semibold text-gray-500 group-hover:text-black">
-            Mood
+
+
+      </div>
+      <div className="flex flex-row gap-4">
+        <button
+          className="group flex bg-purple-900 px-3 rounded-xl mt-4 cursor-pointer flex-row items-center gap-4"
+        >
+
+          <p className="text-base text-white  text-muted-foreground group-hover:text-muted-foreground/80">
+            #News
           </p>
-        </ButtonNaked> */}
+        </button>
+        <button
+          className="group flex bg-purple-900 px-3 rounded-xl mt-4 cursor-pointer flex-row items-center gap-4"
+        >
+
+          <p className="text-base text-white  text-muted-foreground group-hover:text-muted-foreground/80">
+            #Music
+          </p>
+        </button>
+        <button
+          className="group flex bg-purple-900 px-3 rounded-xl mt-4 cursor-pointer flex-row items-center gap-4"
+        >
+
+          <p className="text-base text-white  text-muted-foreground group-hover:text-muted-foreground/80">
+            #Podcast
+          </p>
+        </button>
+        <button
+          className="group flex bg-purple-900 px-3 rounded-xl mt-4 cursor-pointer flex-row items-center gap-4"
+        >
+
+          <p className="text-base text-white  text-muted-foreground group-hover:text-muted-foreground/80">
+            #Trending
+          </p>
+        </button>
+
+
       </div>
     </div>
   );

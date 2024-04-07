@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import { SVGProps } from 'react';
 const SvgLogo = (props: SVGProps<SVGSVGElement>) => (
@@ -25,7 +26,7 @@ const SvgLogo = (props: SVGProps<SVGSVGElement>) => (
         y2={34.851}
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#AE5388" />
+        <stop stopColor="#6b069c" />
         <stop offset={1} stopColor="#3D1052" />
       </linearGradient>
       <filter

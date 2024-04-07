@@ -30,6 +30,7 @@
     --input: 238 239 249;
     --ring: 1rem;
   }
+
   .dark {
     --background: 16 0 35;
     --foreground: 251 243 255;

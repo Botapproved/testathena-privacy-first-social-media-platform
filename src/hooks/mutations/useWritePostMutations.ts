@@ -84,7 +84,7 @@ export function useWritePostMutations({
           pageParams: newPageParams,
         };
       });
-      showToast({ title: 'Successfully Posted', type: 'success' });
+      showToast({ title: 'Successfully Posted', type: 'default' });
       revokeVisualMediaObjectUrls(visualMedia);
       exitCreatePostModal();
     },
