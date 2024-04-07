@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="mt-28 flex flex-col items-center sm:mt-36">
         <a href="https://twitter.com/surreal_platform">
           <p className="inline-block rounded-lg bg-card px-3 py-2 text-card-foreground">
-            Follow us on Twitter
+            Follow us by registering yourself on Surreal
           </p>
         </a>
         <h1 className="mt-4 px-5 text-center text-2xl sm:text-5xl">

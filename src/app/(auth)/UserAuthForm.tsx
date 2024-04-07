@@ -106,41 +106,43 @@ export function UserAuthForm({ mode }: { mode: 'login' | 'register' }) {
           onPress={() => {
             setLoading((prev) => ({
               ...prev,
-              github: true,
+              google: true,
             }));
-            signIn('github', {
+            signIn('google', {
               callbackUrl,
             });
           }}
           shape="pill"
           expand="full"
           mode="subtle"
-          Icon={Github}
-          loading={loading.github}
+          Icon={Google}
+          loading={loading.google}
           isDisabled={areButtonsDisabled}
         >
-          Github
+          Google
         </Button>
+
         <div className="flex gap-2">
           <Button
             onPress={() => {
               setLoading((prev) => ({
                 ...prev,
-                google: true,
+                github: true,
               }));
-              signIn('google', {
+              signIn('github', {
                 callbackUrl,
               });
             }}
             shape="pill"
             expand="full"
             mode="subtle"
-            Icon={Google}
-            loading={loading.google}
+            Icon={Github}
+            loading={loading.github}
             isDisabled={areButtonsDisabled}
           >
-            Google
+            Github
           </Button>
+
           <Button
             onPress={() => {
               setLoading((prev) => ({
